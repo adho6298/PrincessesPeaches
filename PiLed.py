@@ -2,9 +2,9 @@ import RPi.GPIO as GPIO
 import time
 
 # Suggested GPIO pins for LEDs and buttons
-led_pins = [2, 3, 4, 5, 6, 7, 8, 9]  # 8 LEDs
-button1_pin = 17  # Button 1
-button2_pin = 27  # Button 2
+led_pins = [2, 3, 4, 17, 27, 22, 10, 9]  # 8 LEDs
+button1_pin = 20  # Button 1
+button2_pin = 21  # Button 2
 
 GPIO.setmode(GPIO.BCM)
 
